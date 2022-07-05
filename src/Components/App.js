@@ -116,7 +116,7 @@ function App() {
         >
           Clear Filter
         </button>
-      <div className="ui celled list" style={{ marginTop: "50px" }}>
+      <div class="cardall" style={{ marginTop: "50px" }}>
         {tempProducts && renderProduct}
       </div>
     </div>
